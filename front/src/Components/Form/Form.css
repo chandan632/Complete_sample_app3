@@ -1,0 +1,65 @@
+table {
+  width: 70%;
+}
+td {
+  padding: 5px 10px;
+}
+.textarea > div {
+  float: right;
+}
+
+.mobile > div > input {
+  padding: 0 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  text-align: start !important;
+}
+
+.gender {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.gender > div {
+  padding: 2px;
+}
+
+.gender > div > div > div > span {
+  background-color: blue;
+}
+
+.language > div {
+  padding: 2px;
+}
+
+.language > div > div > div > span {
+  background-color: green !important;
+}
+
+.mybtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #4caf50;
+  color: green;
+}
+
+.mybtn:hover {
+  color: white;
+  background-color: #4caf50;
+}
+
+.error__msg {
+  color: red;
+  margin-top: -30px;
+  float: right;
+}
+
+.form {
+  margin: 20px 0;
+}
+
+.form > h3 {
+  margin: 10px 0;
+}
